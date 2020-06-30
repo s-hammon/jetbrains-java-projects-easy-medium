@@ -10,7 +10,8 @@ public class Main {
         for (char[] row: board) Arrays.fill(row, ' ');
 
         display(board);
-
+        
+        //manages progress of game
         while (inGame) {
             playerMove(board, 1);
             display(board);
